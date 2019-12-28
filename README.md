@@ -9,6 +9,8 @@
 5. <kbd>Ctrl</kbd>+<kbd>Space</kbd>으로 자동완성 탭을 보이게 한 후 `HTML sample`을 클릭합니다.
 6. 이제 웹 프로그래밍을 시작할 준비가 되었습니다. 아래와 같은 코드가 보이면 성공입니다.
 
+참고: [VSCode Tutorial](https://demun.github.io/vscode-tutorial/)
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -26,3 +28,17 @@
 </html>
 ```
 
+## 개발하기
+
+1. `*.html` 파일은 Chrome 브라우저 등을 이용해 열 수 있습니다.
+2. [Web과 함께 시작하기](https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web)를 참고하면 웹 프로그래밍에 대한 기초를 다질 수 있습니다.
+
+## 배포하기
+
+1. [GitHub Pages](https://pages.github.com/)를 이용하면 무료로 개인 홈페이지를 배포할 수 있습니다. [GitHub](https://github.com/)에 가입해 아이디를 만들어주세요.
+2. 상단 탭 우측의 `+` 버튼을 눌러 `New repository`을 선택해주세요.
+3. `Repository name`을 `[username].github.io`으로 설정하고 저장소를 생성해주세요. (ex. `int-i.github.io`)
+4. 생성한 저장소에 들어가 본인의 웹 페이지 코드가 들어있는 `index.html`을 업로드해주세요.
+5. `https://[username].github.io/`에 접속해 본인의 페이지가 성공적으로 배포되었는지 확인해주세요.
+
+참고: [Github Pages 사용하기](https://mygumi.tistory.com/285)
