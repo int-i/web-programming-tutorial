@@ -32,6 +32,11 @@
 
 1. `*.html` 파일은 Chrome 브라우저 등을 이용해 열 수 있습니다.
 2. [Web과 함께 시작하기](https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web)를 참고하면 웹 프로그래밍에 대한 기초를 다질 수 있습니다.
+3. [개발자 로드맵(한글)](https://github.com/devJang/developer-roadmap)을 통해 앞으로 무엇을 배워야하는지 확인할 수 있습니다.
+4. HTML/CSS 쉽게 알려주는 사이트 [웨버스터디](http://webberstudy.com/) 예제를 통해 코딩하는 방법을 배울 수 있습니다.
+5. [레진 마크업 가이드](https://github.com/lezhin/markup-guide)에서 더 나은 코드를 작성하는 방법을 배울 수 있습니다.
+
+참고: [고퀄리티⚡️개발 컨텐츠 모음](https://github.com/Integerous/goQuality-dev-contents#웹-관련)
 
 ## 배포하기
 
@@ -39,6 +44,6 @@
 2. 상단 탭 우측의 `+` 버튼을 눌러 `New repository`을 선택해주세요.
 3. `Repository name`을 `[username].github.io`으로 설정하고 저장소를 생성해주세요. (ex. `int-i.github.io`)
 4. 생성한 저장소에 들어가 본인의 웹 페이지 코드가 들어있는 `index.html`을 업로드해주세요.
-5. `https://[username].github.io/`에 접속해 본인의 페이지가 성공적으로 배포되었는지 확인해주세요.
+5. `https://[username].github.io/`에 접속해 본인의 페이지가 성공적으로 배포되었는지 확인해주세요. (배포까지 5분 정도 소요됨)
 
 참고: [Github Pages 사용하기](https://mygumi.tistory.com/285)
