@@ -47,6 +47,15 @@
 5. `npm start`을 입력해 서버를 실행시켜줍니다. 방화벽 해제가 필요하다면 Node.js가 서버를 열 수 있도록 방화벽을 풀어줍니다.
 6. [http://localhost:3000/](http://localhost:3000/)에 접속해 서버가 정상적으로 실행되었는지 확인합니다.
 
+### 로그인 구현하기
+
+1. [코드](https://github.com/int-i/web-programming-tutorial/archive/master.zip)를 다운로드받아 [src/jwt-server](./src/jwt-server/)에 들어갑니다.
+2. API 서버를 실행시키기 위한 도구로 [Node.js](https://nodejs.org/ko/)를 설치합니다. LTS가 아닌 **현재버전(최신기능)**으로 설치해야합니다.
+3. `jwt-server` 폴더에서 <kbd>Shift</kbd> 우클릭을 통해 나오는 메뉴에서 `여기서 PowerShell 창 열기`를 클릭하여 명령창을 열어줍니다.
+4. `npm install`을 입력해 서버 실행에 필요한 코드를 다운로드 받습니다. `install` 명령은 `package.json`의 `dependencies`에 있는 라이브러리를 자동으로 설치하는 명령입니다.
+5. `npm start`을 입력해 서버를 실행시켜줍니다. 방화벽 해제가 필요하다면 Node.js가 서버를 열 수 있도록 방화벽을 풀어줍니다.
+6. [http://localhost:3000/](http://localhost:3000/)에 접속해 서버가 정상적으로 실행되었는지 확인합니다.
+
 ## 배포하기
 
 1. [GitHub Pages](https://pages.github.com/)를 이용하면 무료로 개인 홈페이지를 배포할 수 있습니다. [GitHub](https://github.com/)에 가입해 아이디를 만들어주세요.
