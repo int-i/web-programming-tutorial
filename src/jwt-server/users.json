@@ -1,0 +1,27 @@
+[
+    {
+        "id": "irene",
+        "name": "배주현",
+        "birthday": "1991-03-29"
+    },
+    {
+        "id": "seulgi",
+        "name": "강슬기",
+        "birthday": "1994-02-10"
+    },
+    {
+        "id": "wendy",
+        "name": "손승완",
+        "birthday": "1994-02-21"
+    },
+    {
+        "id": "joy",
+        "name": "박수영",
+        "birthday": "1996-09-03"
+    },
+    {
+        "id": "yeri",
+        "name": "김예림",
+        "birthday": "1999-03-05"
+    }
+]
