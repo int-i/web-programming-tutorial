@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#181924">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="msapplication-navbutton-color" content="#181924">
+
+  <!-- Icon -->
+  <link rel="icon" sizes="192x192" href="./images/icon192.png" type="image/png">
+  <link rel="apple-touch-icon" href="./images/icon180.png">
+  <meta name="msapplication-square310x310logo" content="./images/icon310.png">
+
+  <title>Basic HTML</title>
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+  <div class="header">
+    <h1 class="title">프로그래밍 언어 소개</h1>
+    <h2 class="subtitle">언어 별 특징 및 장단점 안내</h2>
+  </div>
+  <div class="container">
+    <span class="hint">틀린 정보는 알아서 거르셈</span>
+    <ul class="list">
+      <li class="item">
+        <img class="item__image" src="./images/c.svg" alt="C">
+        <div class="item__content">
+          <h1 class="item__title"><s>틀딱언어</s> 과거의 영광</h1>
+          흔히 프로그래밍의 기초로 시작되는 언어이다. IoT, 드론 같은 임베디드 또는 운영체제와 같은 시스템 프로그래밍에 관심이 있는게 아니라면 기초 이후에는 별 볼일 없을 것이다. 하지만 긴 역사로 인해 많은 프로그램이 C로 짜여있으니 알아 두는 것이 좋다.
+        </div>
+      </li>
+      <li class="item">
+        <img class="item__image" src="./images/cpp.svg" alt="C++">
+        <div class="item__content">
+          <h1 class="item__title">뭘 좋아할지 몰라서 다 준비해봤어</h1>
+          C++ can do anything! 활용도가 매우 높다. 그러나 언어가 만능인거지 사용자가 만능이 아니란걸 명심해두자. <s>와 C++ 아시는구나 겁나 어렵습니다.</s> 다양한 문법을 사용할 수 있지만, 나쁘게 말하면 잡탕에 기능이 많아진 만큼 배우기 어렵고 오래걸린다. 취업 이전에는 알고리즘 문제 풀 때 자주 사용한다.
+        </div>
+      </li>
+      <li class="item">
+        <img class="item__image" src="./images/java.svg" alt="Java">
+        <div class="item__content">
+          <h1 class="item__title">자바 2명 타요</h1>
+          한국한정 취업깡패 언어. C++보다 쉽지만 객체지향 개념을 알아야 제대로 사용할 수 있다. 한국의 많은 회사가 Spring 서버프레임워크와 함께 자바를 채택하고 있지만, 수요만큼 공급(고졸 국비 등)도 많아 연봉은 높지 않다. 안드로이드 앱을 개발할 때 사용하기도 한다.
+        </div>
+      </li>
+      <li class="item">
+        <img class="item__image" src="./images/javascript.svg" alt="Javascript">
+        <div class="item__content">
+          <h1 class="item__title">아무튼 실행됨</h1>
+          과거에는 웹 브라우저에서 사용하는 용도였으나, Node.js의 부상과 함께 여러 분야에 진출하게 되었다. <a class="link" href="https://ko.wikipedia.org/wiki/%EB%84%B7%EC%8A%A4%EC%BC%80%EC%9D%B4%ED%94%84_%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80">Netscape</a>시절에는 유사 프로그래밍언어 취급이었지만 오늘날 여러가지 문법이 추가됨에 따라 언어로서 인정받고 있다. 하지만, 오랜 세월동안 호환성을 위해 남겨둔 문법 때문에, 입문은 쉽지만 직관적으로 이해되지 않는 이상한 동작과 문법으로 인해 전문가가 되기는 어려운 언어가 되어버렸다.
+        </div>
+      </li>
+      <li class="item">
+        <img class="item__image" src="./images/python.svg" alt="Python">
+        <div class="item__content">
+          <h1 class="item__title">쉬움</h1>
+          직관적인 문법으로 쉬운 난이도로 인해 문돌이의 프로그래밍 입문으로 추천되고 있다. 데이터사이언스 분야에서는 머신러닝의 부상으로 함께 떠올랐으나 언어에 비해 연산이 매우 느려서 연산부분은 C/C++로 코딩하고 껍데기만 파이썬인 형태로 주로 사용된다. 파이썬 2.7과 3.x 버전 파편화 역시 사용을 불편하게 하는 요인 중 하나다.
+        </div>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>
